@@ -4,7 +4,7 @@ Rajeev Data Table will allow you to easily create Listing, Searching, Sorting an
 
 # Install
 ```
-composer require Rajeev/data-table
+composer require rajeev/data-table
 ```
 
 Add bellow lines in config/app.php under providers

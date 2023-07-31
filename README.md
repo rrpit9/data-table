@@ -1,15 +1,15 @@
-# Sanjeevani Data Table
-Sanjeevani Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV for Sanjeevani.
+# Rajeev Data Table
+Rajeev Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV for Rajeev.
 
 
 # Install
 ```
-composer require sanjeevani/data-table
+composer require Rajeev/data-table
 ```
 
 Add bellow lines in config/app.php under providers
 ```
-Sanjeevani\DataTable\DataTableServiceProvider::class
+Rajeev\DataTable\DataTableServiceProvider::class
 ```
 
 run this command to publish **php artisan vendor:publish**

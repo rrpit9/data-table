@@ -1,12 +1,12 @@
 {
-    "name": "sanjeevani/data-table",
+    "name": "rajeev/data-table",
     "description": "Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV.",
     "keywords": ["data-table", "datatable", "data table", "laravel data table", "laravel"],
     "type": "library",
     "require": {},
     "autoload": {
         "psr-4": {
-            "Sanjeevani\\DataTable\\": "src/"
+            "Rajeev\\DataTable\\": "src/"
         }
     },
     "license": "MIT",
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sanjeevani\\DataTable\\DataTableServiceProvider"
+                "Rajeev\\DataTable\\DataTableServiceProvider"
             ]
         }
     }

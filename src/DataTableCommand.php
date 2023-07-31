@@ -1,5 +1,5 @@
 <?php
-namespace Sanjeevani\DataTable;
+namespace Rajeev\DataTable;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

@@ -1,5 +1,5 @@
 <?php
-namespace Sanjeevani\DataTable;
+namespace Rajeev\DataTable;
 
 use Maatwebsite\Excel\Facades\Excel;
 

@@ -1,8 +1,8 @@
 <?php
-namespace SANJEEVANI\DataTable;
+namespace Sanjeevani\DataTable;
 
 use Illuminate\Support\ServiceProvider;
-use SANJEEVANI\DataTable\DataTableCommand;
+use Sanjeevani\DataTable\DataTableCommand;
 
 class DataTableServiceProvider extends ServiceProvider
 {

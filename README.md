@@ -4,13 +4,12 @@ Laravel Data Table will allow you to easily create Listing, Searching, Sorting a
 
 # Install
 ```
-composer require lakipatel/data-table
+composer require sanjeevani/data-table
 ```
 
 Add bellow lines in config/app.php under providers
 ```
-Maatwebsite\Excel\ExcelServiceProvider::class,
-Lakipatel\DataTable\DataTableServiceProvider::class
+Sanjeevani\DataTable\DataTableServiceProvider::class
 ```
 
 run this command to publish **php artisan vendor:publish**

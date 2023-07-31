@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "SANJEEVANI\\DataTable\\": "src/"
+            "Sanjeevani\\DataTable\\": "src/"
         }
     },
     "license": "MIT",
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SANJEEVANI\\DataTable\\DataTableServiceProvider"
+                "Sanjeevani\\DataTable\\DataTableServiceProvider"
             ]
         }
     }

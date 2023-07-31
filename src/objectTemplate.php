@@ -3,7 +3,7 @@ return <<<HTML
 <?php
 namespace {$rootNameSpace}DataTables;
 
-use WINDS\DataTable\DataTable;
+use SANJEEVANI\DataTable\DataTable;
 use DB;
 
 class {$className} extends DataTable

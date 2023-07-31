@@ -1,27 +1,25 @@
 {
-    "name": "winds/data-table",
+    "name": "sanjeevani/data-table",
     "description": "Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV.",
     "keywords": ["data-table", "datatable", "data table", "laravel data table", "laravel"],
     "type": "library",
-    "require": {
-        "maatwebsite/excel": "^2.1"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
-            "WINDS\\DataTable\\": "src/"
+            "SANJEEVANI\\DataTable\\": "src/"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Vikas Roy",
-            "email": "vikas@winds.co.in"
+            "name": "Rajeev Gupta",
+            "email": "rrpit9@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "WINDS\\DataTable\\DataTableServiceProvider"
+                "SANJEEVANI\\DataTable\\DataTableServiceProvider"
             ]
         }
     }

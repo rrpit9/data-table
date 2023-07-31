@@ -1,8 +1,8 @@
 <?php
-namespace WINDS\DataTable;
+namespace SANJEEVANI\DataTable;
 
 use Illuminate\Support\ServiceProvider;
-use WINDS\DataTable\DataTableCommand;
+use SANJEEVANI\DataTable\DataTableCommand;
 
 class DataTableServiceProvider extends ServiceProvider
 {

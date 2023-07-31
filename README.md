@@ -1,5 +1,5 @@
-# Laravel Data Table
-Laravel Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV for Laravel.
+# Sanjeevani Data Table
+Sanjeevani Data Table will allow you to easily create Listing, Searching, Sorting and Download CSV for Sanjeevani.
 
 
 # Install

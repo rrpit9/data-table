@@ -1,7 +1,6 @@
 <?php
-namespace Rajeev\DataTable;
 
-use Maatwebsite\Excel\Facades\Excel;
+namespace Rajeev\DataTable;
 
 abstract class DataTable
 {
@@ -132,13 +131,25 @@ abstract class DataTable
                     $returnData[] = $tmpArray;
                 }
             }
-            Excel::create($this->uniqueID . time(), function($excel) use ($returnData) {
-                $excel->sheet('Sheet 1', function($sheet) use ($returnData) {
-                    $sheet->setAllBorders('thin');
-                    $sheet->fromArray($returnData, null, 'A1', false, false);
-                    $sheet->setAutoSize(true);
-                });
-            })->export('csv');
+            header('Content-Type: text/csv');
+            header('Content-Disposition: attachment; filename='. $this->uniqueID . time().'.csv');
+            header('Pragma: no-cache');
+            header("Expires: 0");
+            $outstream = fopen("php://output", "wb");    
+            fputcsv($outstream, []);
+
+            foreach($returnData as $result)
+            {
+                fputcsv($outstream, $result);
+            }
+            fclose($outstream);
+            // Excel::create($this->uniqueID . time(), function($excel) use ($returnData) {
+            //     $excel->sheet('Sheet 1', function($sheet) use ($returnData) {
+            //         $sheet->setAllBorders('thin');
+            //         $sheet->fromArray($returnData, null, 'A1', false, false);
+            //         $sheet->setAutoSize(true);
+            //     });
+            // })->export('csv');
         } else {
             $data = $queryBuilder->paginate( request()->get('limit') )->toArray();
             if($this->debug == true) {

@@ -60,12 +60,9 @@ abstract class DataTable
         $sortableColumns = $self->sortableColumns();
         $searchableColumns = $self->searchableColumns();
         $filters = $self->filters();
-        if(!request()->download_access){/** this download access key is added in SSO-Admin Middleware while authentication*/
-            $downloadOptions = [];
-        }else{
-            $downloadOptions = $self->downloadableColumns();
-        }
-
+        
+        $downloadOptions = $self->downloadableColumns();
+        
         $rowPerPage = $self->rowPerPage ?: config('data-table.row_per_page');
         $rowPerPageOptions = $self->rowPerPageOptions ?: config('data-table.row_per_page_options');
 

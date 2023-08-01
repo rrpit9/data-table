@@ -12,7 +12,7 @@ return [
 
     'search_btn' => 'input-group-append',
 
-    'search_btn_icon' => 'mdi mdi-magnify',
+    'search_btn_icon' => 'bi bi-search',
 
     'filter_btn' => 'btn btn-default',
 
@@ -20,7 +20,7 @@ return [
 
     'download_btn' => 'btn btn-default',
 
-    'download_btn_icon' => 'mdi mdi-download',
+    'download_btn_icon' => 'bi bi-download',
 
     'show_hide_column_btn' => 'btn btn-default',
 
@@ -28,7 +28,7 @@ return [
 
     'refresh_btn' => 'btn btn-default',
 
-    'refresh_btn_icon' => 'mdi mdi-refresh',
+    'refresh_btn_icon' => 'bi bi-bootstrap-reboot',
 
     'previous_page_btn' => 'btn btn-default',
 
